@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+class animal{
+    constructor (name){
+this.name=name
+
+    }
+eat(){
+document.write(this.name+"is eating");
+}}
+class dog extends animal{
+bark(){
+document.write(this.name+"is bARKING");
+
+}
+
+}
+ let dog1=new dog("buddy")
+ dog1.eat();
+ dog1.bark();
+ 
+   </script>
+    
+</body>
+
+</html>
